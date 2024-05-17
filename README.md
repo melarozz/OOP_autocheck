@@ -15,7 +15,9 @@ After updating configuration file, go to `src/main/java/ru/nsu/yakovleva/util/Gi
 - Be careful, do not make commits with your token
 
 Then, run `src/main/java/ru/nsu/yakovleva/App.java`
+
 Wait until every student is checked 
+
 Go to `src/main/resources/results/output.html` and open it in browser
 
 Now you can mark deadlines for each student, see their points and GitHub activity in the bottom table
