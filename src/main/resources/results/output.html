@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Students Table Chart</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        td.student-points {
+            color: #f66262;
+        }
+        td.checkbox {
+            background-color: #fcc2c2;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>Group</th>
+        <th>Name</th>
+        <th>Task</th>
+        <th>Soft Deadline</th>
+        <th>Hard Deadline</th>
+        <th>Build</th>
+        <th>Documentation</th>
+        <th>Tests total</th>
+        <th>Tests passed</th>
+        <th>Tests ignored</th>
+        <th>Points</th>
+    </tr>
+                    <tr>
+                    <td rowspan="17">22213</td>
+                            <td rowspan="6">Valeria Ya</td>
+                        <td>Heapsort</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-09-12 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-09-26 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Operations</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-10-10 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-10-17 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>22</td>
+                        <td>22</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Tree</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-10-24 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-10-31 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Graph</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Book</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>13</td>
+                        <td>13</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Notebook</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Valeria Ya">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                <tr>
+                            <td rowspan="5">Maksim K</td>
+                        <td>Heapsort</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Maksim K">2023-09-12 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Maksim K">2023-09-26 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Operations</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Maksim K">2023-10-10 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Maksim K">2023-10-17 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Graph</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Maksim K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Maksim K">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>18</td>
+                        <td>18</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Book</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Maksim K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Maksim K">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Notebook</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Maksim K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Maksim K">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                <tr>
+                            <td rowspan="6">Daniil D</td>
+                        <td>Heapsort</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Daniil D">2023-09-12 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Daniil D">2023-09-26 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Operations</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Daniil D">2023-10-10 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Daniil D">2023-10-17 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Tree</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Daniil D">2023-10-24 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Daniil D">2023-10-31 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Graph</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Daniil D">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Daniil D">2023-11-28 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Book</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Daniil D">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Daniil D">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>13</td>
+                        <td>13</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Notebook</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Daniil D">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Daniil D">2023-11-28 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                <tr>
+                    <td rowspan="24">22214</td>
+                            <td rowspan="6">Egor K</td>
+                        <td>Heapsort</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Egor K">2023-09-12 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Egor K">2023-09-26 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Operations</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Egor K">2023-10-10 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Egor K">2023-10-17 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>13</td>
+                        <td>13</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Tree</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Egor K">2023-10-24 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Egor K">2023-10-31 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Graph</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Egor K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Egor K">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>35</td>
+                        <td>35</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Book</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Egor K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Egor K">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Notebook</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Egor K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Egor K">2023-11-28 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                <tr>
+                            <td rowspan="6">Kirill R</td>
+                        <td>Heapsort</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Kirill R">2023-09-12 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Kirill R">2023-09-26 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Operations</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Kirill R">2023-10-10 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Kirill R">2023-10-17 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>29</td>
+                        <td>29</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Tree</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Kirill R">2023-10-24 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Kirill R">2023-10-31 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>45</td>
+                        <td>45</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Graph</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Kirill R">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Kirill R">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>32</td>
+                        <td>32</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Book</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Kirill R">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Kirill R">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>68</td>
+                        <td>68</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Notebook</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Kirill R">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Kirill R">2023-11-28 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                <tr>
+                            <td rowspan="6">Pavel Z</td>
+                        <td>Heapsort</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-09-12 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-09-26 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Operations</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-10-10 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-10-17 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Tree</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-10-24 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-10-31 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Graph</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>16</td>
+                        <td>16</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Book</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Pavel Z">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Notebook</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Pavel Z">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Pavel Z">2023-11-28 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                <tr>
+                            <td rowspan="6">Ilya K</td>
+                        <td>Heapsort</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Ilya K">2023-09-12 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Ilya K">2023-09-26 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Operations</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Ilya K">2023-10-10 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Ilya K">2023-10-17 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>28</td>
+                        <td>28</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Tree</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Ilya K">2023-10-24 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Ilya K">2023-10-31 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>19</td>
+                        <td>19</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Graph</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Ilya K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Ilya K">2023-11-28 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Book</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="1" data-student="Ilya K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="1" data-student="Ilya K">2023-11-28 </td>
+
+                        <td class="build">Successfully</td>
+                        <td class="docs">Generated</td>
+                        <td>15</td>
+                        <td>15</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+                        <td>Notebook</td>
+                        <td class="checkbox"><input type="checkbox" class="soft-deadline-checkbox" data-points="0" data-student="Ilya K">2023-11-21 </td>
+                        <td class="checkbox"><input type="checkbox" class="hard-deadline-checkbox" data-points="0" data-student="Ilya K">2023-11-28 </td>
+
+                        <td class="build">Failed to build</td>
+                        <td class="docs"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td class="student-points">0</td>
+                        </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th>Group Name</th>
+        <th>Student Name</th>
+        <th>Student Activity Percentage</th>
+    </tr>
+                <tr class="student-row-Valeria Ya">
+                        <td rowspan="3">22213</td>
+                    <td>Valeria Ya</td>
+                    <td class="student-activity-percentage">83%</td>
+                </tr>
+                <tr class="student-row-Maksim K">
+                    <td>Maksim K</td>
+                    <td class="student-activity-percentage">91%</td>
+                </tr>
+                <tr class="student-row-Daniil D">
+                    <td>Daniil D</td>
+                    <td class="student-activity-percentage">50%</td>
+                </tr>
+                <tr class="student-row-Egor K">
+                        <td rowspan="4">22214</td>
+                    <td>Egor K</td>
+                    <td class="student-activity-percentage">50%</td>
+                </tr>
+                <tr class="student-row-Kirill R">
+                    <td>Kirill R</td>
+                    <td class="student-activity-percentage">66%</td>
+                </tr>
+                <tr class="student-row-Pavel Z">
+                    <td>Pavel Z</td>
+                    <td class="student-activity-percentage">91%</td>
+                </tr>
+                <tr class="student-row-Ilya K">
+                    <td>Ilya K</td>
+                    <td class="student-activity-percentage">66%</td>
+                </tr>
+</table>
+
+<script>
+
+    const softDeadlineCheckboxes = document.querySelectorAll('.soft-deadline-checkbox');
+    const hardDeadlineCheckboxes = document.querySelectorAll('.hard-deadline-checkbox');
+
+    function handleCheckboxSoftChange(checkboxes) {
+        checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener('change', () => {
+                const pointsCell = checkbox.parentNode.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling;
+                const buildCell = checkbox.parentNode.nextElementSibling.nextElementSibling;
+                const buildStatus = buildCell.textContent.trim()
+
+                if (buildStatus === "Failed to build") {
+                    return;
+                }
+
+                if (checkbox.checked) {
+                    pointsCell.textContent = parseFloat(pointsCell.textContent) + 0.5;
+                } else {
+                    pointsCell.textContent = parseFloat(pointsCell.textContent) - 0.5;
+                }
+
+                // Update checkbox color
+                checkbox.parentNode.style.backgroundColor = checkbox.checked ? '#c0dcbb' : '#fcc2c2';
+
+                // Update points color
+                const points = parseFloat(pointsCell.textContent);
+                if (points === 0) {
+                    pointsCell.style.color = '#f66262';
+                } else if (points === 0.5) {
+                    pointsCell.style.color = '#e6a037';
+                } else {
+                    pointsCell.style.color = '#2da919';
+                }
+
+
+            });
+        });
+    }
+
+    function handleCheckboxHardChange(checkboxes) {
+        checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener('change', () => {
+                const pointsCell = checkbox.parentNode.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling;
+                const buildCell = checkbox.parentNode.nextElementSibling;
+                const buildStatus = buildCell.textContent.trim()
+
+                if (buildStatus === "Failed to build") {
+                    return;
+                }
+
+                if (checkbox.checked) {
+                    pointsCell.textContent = parseFloat(pointsCell.textContent) + 0.5;
+                } else {
+                    pointsCell.textContent = parseFloat(pointsCell.textContent) - 0.5;
+                }
+
+                // Update checkbox color
+                checkbox.parentNode.style.backgroundColor = checkbox.checked ? '#c0dcbb' : '#fcc2c2';
+
+                // Update points color
+                const points = parseFloat(pointsCell.textContent);
+                if (points === 0) {
+                    pointsCell.style.color = '#f66262';
+                } else if (points === 0.5) {
+                    pointsCell.style.color = '#e6a037';
+                } else {
+                    pointsCell.style.color = '#2da919';
+                }
+
+            });
+        });
+    }
+
+    function changeActivityPercentageColor() {
+        const activityPercentageCells = document.querySelectorAll('.student-activity-percentage');
+        activityPercentageCells.forEach((cell) => {
+            const activityPercentage = parseFloat(cell.textContent.replace('%', ''));
+            if (activityPercentage <= 50) {
+                cell.style.color = '#f66262';
+            } else if (activityPercentage <= 75) {
+                cell.style.color = '#e6a037';
+            } else {
+                cell.style.color = '#2da919';
+            }
+        });
+    }
+
+    function changeBuildColor() {
+        const activityPercentageCells = document.querySelectorAll('.build');
+        activityPercentageCells.forEach((cell) => {
+            const activityPercentage = cell.textContent.trim();
+            if (activityPercentage === "Failed to build") {
+                cell.style.color = '#f66262';
+            } else {
+                cell.style.color = '#2da919';
+            }
+        });
+    }
+
+    function changeDocsColor() {
+        const activityPercentageCells = document.querySelectorAll('.docs');
+        activityPercentageCells.forEach((cell) => {
+            const activityPercentage = cell.textContent.trim();
+            if (activityPercentage === "Generated") {
+                cell.style.color = '#f66262';
+            } else {
+                cell.style.color = '#2da919';
+            }
+        });
+    }
+
+
+    function changeDocsColor() {
+        const docs = document.querySelectorAll('.docs');
+        docs.forEach((cell) => {
+            const doc = cell.textContent.trim();
+            if (doc === "Generated") {
+                docs.style.color = '#f66262';
+            } else {
+                docs.style.color = '#2da919';
+            }
+        });
+    }
+
+    handleCheckboxSoftChange(softDeadlineCheckboxes);
+    handleCheckboxHardChange(hardDeadlineCheckboxes);
+    changeActivityPercentageColor();
+    changeBuildColor();
+    changeDocsColor();
+</script>
+
+
+</body>
+</html>
