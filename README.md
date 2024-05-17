@@ -14,6 +14,8 @@ After updating configuration file, go to `src/main/java/ru/nsu/yakovleva/util/Gi
 - You can generate your token following these instructions https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 - Be careful, do not make commits with your token
 
+Open `src/main/java/ru/nsu/yakovleva/App.java` and fix `sinceDate` and `untilDate` if needed
+
 Then, run `src/main/java/ru/nsu/yakovleva/App.java`
 
 Wait until every student is checked 
